@@ -1,6 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import me from "../../Assets/pp.jpg";
+import hm from "../../Assets/hm.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,42 +21,52 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              A tech enthusiast driven by the transformative power of
+              programming.
               <br />
-              <br />I am fluent in classics like
+              <br />
+              Committed to making a
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> Positive Impact </b>
               </i>
+              through innovative projects.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              Hailing from a picturesque village in the heart of Nepal
+              <b className="purple"> Lalyang, Syangja</b> .
+              <br />
+              <br />
+              Passionate about harnessing technology for social change and
+              empowerment
+              <br />
+              <br /> Believer in the potential of code to bring about .
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
+                <b className="purple"> real-world change</b>
               </i>
+              &nbsp;
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Proficient in a wide range of technologies, from .
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  React and Node.js to React Native, PHP, MongoDB, and SQL
                 </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img
+                src={me}
+                className="img-fluid"
+                alt="avatar"
+                style={{
+                  height: "300px",
+                  width: "300px",
+                  borderRadius: "50%",
+                }}
+              />
             </Tilt>
           </Col>
         </Row>
@@ -67,7 +79,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/sushilbhattarai45"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +89,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/Sushil_codes"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +99,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/sushilbhattarai45/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +109,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/sushil_bhattarai45"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
