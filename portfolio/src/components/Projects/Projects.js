@@ -50,7 +50,7 @@ function Projects() {
               isBlog={false}
               title="E-Med Nepal"
               description="E-Med Nepal is a platform which helps to centralize the medical reports of a patient which can only be accessible by Hospital which will further give clarity to the doctors about the existing medical history of the patient."
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/sushilbhattarai45/E-Med-Nepal"
               demoLink="https://e-med-nepal.vercel.app/"
             />
           </Col>
