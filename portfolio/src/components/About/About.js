@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
+import me from "../../Assets/pp.jpg";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
@@ -31,7 +32,16 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <img
+              src={me}
+              alt="about"
+              className="img-fluid"
+              style={{
+                borderRadius: "20%",
+                width: "400px",
+                height: "400px",
+              }}
+            />
           </Col>
         </Row>
         <h1 className="project-heading">
