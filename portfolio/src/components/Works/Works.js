@@ -50,7 +50,7 @@ function Works() {
           marginTop: 30,
         }}
       >
-        <Fade arrows={false} duration={1500}>
+        <Fade arrows={true} duration={1500}>
           {fadeImages.map((fadeImage, index) => (
             <div key={index}>
               <img
