@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import hm from "../../Assets/hm.svg";
+import hm from "../../Assets/my.jpg";
 import Home2 from "./Home2";
-import a1 from "../../Communityimg/4.jpg";
-import a2 from "../../Communityimg/12.jpg";
-import a3 from "../../Communityimg/11.jpg";
-
+import a1 from "../../Assets/my.jpg";
+import a2 from "../../Assets/pp.jpg";
+import a3 from "../../Assets/pp2.jpg";
 import Type from "./Type";
 import { Fade } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -33,7 +32,7 @@ function Home() {
           {fadeImages.map((fadeImage, index) => (
             <div key={index}>
               <img
-                style={{ width: "100%", height: 400, borderRadius: "20%" }}
+                style={{ width: "80%", height: 400, borderRadius: "20%" }}
                 src={fadeImage.url}
               />
               {/* <h2
@@ -79,7 +78,7 @@ function Home() {
                 src={hm}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
+                style={{ maxHeight: "400px", borderRadius: "20%" }}
               /> */}
             </Col>
           </Row>

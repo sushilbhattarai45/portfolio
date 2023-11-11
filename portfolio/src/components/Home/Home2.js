@@ -2,6 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import me from "../../Assets/pp.jpg";
+
+import { Fade } from "react-slideshow-image";
+import "react-slideshow-image/dist/styles.css";
+import a1 from "../../Assets/my.jpg";
+import a2 from "../../Assets/pp.jpg";
+import a3 from "../../Assets/pp2.jpg";
+
 import hm from "../../Assets/hm.svg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -12,6 +19,44 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
+  const fadeImages = [
+    {
+      url: a1,
+      caption: "First Slide",
+    },
+    {
+      url: a2,
+      caption: "Second Slide",
+    },
+    {
+      url: a3,
+      caption: "Third Slide",
+    },
+  ];
+  const Slideshow = () => {
+    return (
+      <div className="slide-container">
+        <Fade arrows={false} duration={2000}>
+          {fadeImages.map((fadeImage, index) => (
+            <div key={index}>
+              <img
+                style={{ width: "100%", height: 400, borderRadius: "20%" }}
+                src={fadeImage.url}
+              />
+              {/* <h2
+                  style={{
+                    align: "center",
+                  }}
+                >
+                  {fadeImage.caption}
+                </h2> */}
+            </div>
+          ))}
+        </Fade>
+      </div>
+    );
+  };
+
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -57,6 +102,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
+              {/* <Slideshow /> */}
               <img
                 src={me}
                 className="img-fluid"
