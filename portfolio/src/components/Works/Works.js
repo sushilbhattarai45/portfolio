@@ -131,7 +131,7 @@ function Works() {
               imgPath={rn}
               isBlog={false}
               title="Ragat Nepal"
-              description="The Password Vault and Manager app is a robust solution designed for securely storing and managing sensitive login credentials and personal information. Built using React Native, it offers a seamless user experience across multiple platforms. The app leverages the power of PHP and SQL database technology to ensure that user data remains encrypted and protected. With this app, users can easily organize and access their passwords, providing a convenient and secure way to navigate the complex world of online security."
+              description="This project is more than just coding and technology for us—it's about making a meaningful impact. Collaborating with the Red Cross added a special touch to our app, extending its reach and effectiveness. 'Ragat Nepal' isn't just an app; it's a tool that showcases our dedication to using technology for the greater good. Knowing that it played a role in saving lives and helping so many individuals is truly humbling and reinforces our belief in the power of innovation and collaboration."
               ghLink="https://github.com/sushilbhattarai45/Password-vault-and-manager-app"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
