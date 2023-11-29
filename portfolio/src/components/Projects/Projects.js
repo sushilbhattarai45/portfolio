@@ -62,7 +62,7 @@ function Projects() {
               title="Ragat Nepal (Blood Nepal)"
               description="Ragat Nepal, also known as Blood Nepal, is a React Native-based social service platform available on the Google Play Store. This app enables people in Nepal to easily request and donate blood, aiding over 1000 individuals in times of need. It serves as a crucial bridge between donors and those in search of life-saving blood donations, highlighting the potential of technology to connect and assist people during medical emergencies."
               ghLink="https://github.com/sushilbhattarai45/ragat-nepal"
-              demoLink="https://www.ragatnepal.com"
+              demoLink="https://play.google.com/store/apps/details?id=com.nepcode.ragatnepal"
             />
           </Col>
 
